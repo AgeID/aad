@@ -1,0 +1,11 @@
+.env
+.idea
+clover.xml
+composer.lock
+coverage
+docker-compose.override.yml
+junit-*.xml
+vendor/
+log/*
+!log/.gitkeep
+/.scannerwork
