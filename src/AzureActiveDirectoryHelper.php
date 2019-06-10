@@ -58,8 +58,8 @@ class AzureActiveDirectoryHelper
         return $this->isValid($token) && count(array_intersect($roles, $this->roles)) == count($roles);
     }
 
-    public function getToken(string $clientKey, string $resource){
-
+    public function getToken(string $clientKey, string $resource)
+	{
         $params = [
             'grant_type' => 'client_credentials',
             'client_secret' => $clientKey,
